@@ -287,4 +287,20 @@ export const messages = [
       description: 'Найдётся всё',
     },
   },
+  {
+    chatId: 1, type: "message.text", text: "Привет! Сообщение с keyboard",
+    direction: 'incoming', status: 'received', timestamp: '1727028159',
+    messageId:'149',
+    keyboard: [
+      {
+        key: 'key_1',
+        text: 'Все ок',
+        order: 1,
+      },{
+        key: 'key_2',
+        text: 'Перезвоню позже',
+        order: 2,
+      },
+    ],
+  },
 ];
